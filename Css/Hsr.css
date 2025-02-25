@@ -132,15 +132,16 @@ nav {
 .gallery-section {
   padding: 20px;
   margin-top: 60px;
+  flex: 1;
 }
 
 .gallery-container {
-  
+  transform: scale(0.75);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
-  height: calc(100vh-160px);
+  height: auto;
 }
 
 .gallery {
