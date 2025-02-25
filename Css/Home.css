@@ -9,6 +9,10 @@ body {
     width: 100%;
     height: 100vh;
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 .video-background {
@@ -110,6 +114,18 @@ nav {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.greeting {
+  color: white;
+    text-shadow: 0 0 10px rgb(255, 0, 140);
+    font-family: 'Tangerine', cursive;
+    font-size: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
 }
 
 footer {
