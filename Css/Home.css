@@ -117,7 +117,8 @@ nav {
 }
 
 .greeting {
-  color: white;
+    flex: 1;
+    color: white;
     text-shadow: 0 0 10px rgb(255, 0, 140);
     font-family: 'Tangerine', cursive;
     font-size: 100px;
