@@ -118,6 +118,7 @@ nav {
 
 .greeting {
     flex: 1;
+    display: flex;
     color: white;
     text-shadow: 0 0 10px rgb(255, 0, 140);
     font-family: 'Tangerine', cursive;
