@@ -1,9 +1,5 @@
 * {
-
-
-
     margin: 0;
-
     padding: 0;
     box-sizing: border-box;
 }
@@ -121,7 +117,13 @@ nav {
     display: block;
 }
 
+.galcon {
+  text-align: center;
+  width: 100%;
+}
+
 h1[data-title="galtitle"] {
+  display: inline block;
   text-align: center;
   font-size: 2.5rem;
   margin-top: 20px;
