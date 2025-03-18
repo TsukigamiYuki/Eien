@@ -123,7 +123,7 @@ nav {
 }
 
 h1[data-title="galtitle"] {
-  display: inline block;
+  display: inline-block;
   text-align: center;
   font-size: 2.5rem;
   margin-top: 20px;
@@ -153,6 +153,7 @@ h1[data-title="galtitle"] {
   width: 100%;
   height: 100%;
   position: relative;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
 }
 
 .gallery img {
